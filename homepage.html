@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mindful Blog</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Custom styles for the hero section */
+    .hero {
+      background-image: url('images/hero.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    .cta-btn {
+      background-color: #6C63FF;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1.1rem;
+    }
+
+    /* Featured posts section */
+    .featured-posts {
+      display: flex;
+      justify-content: space-between;
+      margin: 30px 0;
+    }
+
+    .post-card {
+      background: #222;
+      color: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      width: 30%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .post-card:hover {
+      transform: scale(1.05);
+    }
+
+    .post-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .social-links {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .social-links a {
+      margin: 0 10px;
+      font-size: 1.5rem;
+      color: #6C63FF;
+      text-decoration: none;
+    }
+
+    .social-links a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mindful Blog</h1>
+    <nav>
+      <ul>
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Welcome to Mindful Blog</h2>
+    <p>Explore the power of mindfulness and simplicity in everyday life</p>
+    <a href="blog.html" class="cta-btn">Start Reading</a>
+  </section>
+
+  <!-- Featured Posts Section -->
+  <main class="container">
+    <h2>Featured Posts</h2>
+    <div class="featured-posts">
+      <!-- Post 1 -->
+      <div class="post-card">
+        <img src="images/post1.jpg" alt="Meditation" />
+        <h3>5-Minute Meditation for Beginners</h3>
+        <p>Start your day with a quick, calming meditation technique...</p>
+        <a href="post.html" class="cta-btn">Read More</a>
+      </div>
+      <!-- Post 2 -->
+      <div class="post-card">
+        <img src="images/post2.jpg" alt="Yoga" />
+        <h3>Yoga for Beginners</h3>
+        <p>Learn the basics of yoga and its positive impact on your life...</p>
+        <a href="post.html" class="cta-btn">Read More</a>
+      </div>
+      <!-- Post 3 -->
+      <div class="post-card">
+        <img src="images/post3.jpg" alt="Mindfulness" />
+        <h3>The Power of Mindfulness</h3>
+        <p>Why practicing mindfulness can help you live a more balanced life...</p>
+        <a href="post.html" class="cta-btn">Read More</a>
+      </div>
+    </div>
+
+    <!-- Social Links Section -->
+    <section class="social-links">
+      <p>Follow Us:</p>
+      <a href="https://twitter.com" target="_blank">Twitter</a>
+      <a href="https://facebook.com" target="_blank">Facebook</a>
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mindful Blog. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
